@@ -1,0 +1,12 @@
+import FrictionSolidMechanicsCanonicalLaneLean.FrictionInterfaceModel
+
+namespace HautevilleHouse
+namespace FrictionSolidMechanicsCanonicalLaneLean
+
+structure FrictionAdmittedObject where
+  interfaceModel : FrictionInterfaceModel
+  interfaceClosed : FrictionInterfaceClosed interfaceModel
+  conclusion : Prop
+
+end FrictionSolidMechanicsCanonicalLaneLean
+end HautevilleHouse
